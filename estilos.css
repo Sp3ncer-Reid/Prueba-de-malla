@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('fonts/LEMONMILK-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background: #1dcb6d;
   font-family: 'Lemon Milk', Arial, sans-serif;
