@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(135deg, #f6d6ff 0%, #ffe9d6 100%);
+  font-family: 'Lemon Milk', Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.pomodoro-container {
+  background: #fff0f6;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 6px 24px rgba(100, 100, 100, 0.15);
+  text-align: center;
+}
+
+h1 {
+  color: #b9aedc;
+}
+
+#timer {
+  font-size: 4rem;
+  color: #a6c7e7;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+button {
+  background: #fae3d9;
+  border: none;
+  color: #a89cc8;
+  font-size: 1.2rem;
+  padding: 0.7rem 2rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #d6e0f6;
+}
+
+#status {
+  color: #94d7c7;
+  margin-top: 1rem;
+}
